@@ -1,15 +1,16 @@
 import "./App.css";
-
-// Bootstrap CSS
-import "bootstrap/dist/css/bootstrap.min.css";
-// Bootstrap Bundle JS
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import { Route, Routes, Link } from "react-router-dom";
+import Register from "./components/Register/Register";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-danger">Hello, World!</h1>
-    </div>
+    <>
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+    </>
   );
 }
 
