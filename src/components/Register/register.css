@@ -1,5 +1,5 @@
 .register {
-    padding: 4rem;
+    padding: 4rem 0;
 }
 
 .register h4 {
@@ -10,6 +10,6 @@
     text-align: center;
 }
 
-.box {
-    padding: 3rem;
+.register .ifrc-logo {
+    width: 4rem;
 }
